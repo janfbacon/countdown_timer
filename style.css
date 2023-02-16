@@ -49,7 +49,7 @@ input[type="number"]{
     font-size: 7rem;
     line-height: 1;
     margin: 0 2rem;
-    margin-top: -2.2rem;
+    margin-top: -1.2rem;
     width: 150px;
 }
 
@@ -97,6 +97,14 @@ label{
 input::placeholder {
     color: rgba(103, 123, 139, 0.308);
 }
+
+#qr{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 /* Hide arrows/spinners on Chrome */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
